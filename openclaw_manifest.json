@@ -1,0 +1,17 @@
+{
+    "name": "workspacesense",
+    "display_name": "WorkspaceSense",
+    "description": "Accurate repository state tracking and indexing.",
+    "version": "1.2.0",
+    "author": "x0VIER",
+    "type": "skill",
+    "entrypoint": "python WorkspaceSense.py",
+    "capabilities": [
+        "local_execution",
+        "state_management"
+    ],
+    "instructions": [
+        "Run WorkspaceSense.py before starting a new session to establish a baseline.",
+        "Use WorkspaceSense.py after changes to verify integrity and report drift."
+    ]
+}
