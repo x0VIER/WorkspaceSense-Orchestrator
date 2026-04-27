@@ -1,4 +1,4 @@
-# [FORENSIC CONFIG] Senior Architect Standards. Zero PII.
+# [local config] standard setup. Zero PII.
 import os
 import json
 import logging
@@ -14,7 +14,7 @@ logging.basicConfig(filename=LOG_FILE, level=logging.INFO, format='%(asctime)s -
 
 def run_workspace_sense():
     """
-    High-fidelity repository state tracking and file indexing.
+    Accurate repository state tracking and file indexing.
     """
     try:
         logging.info("Initiating WorkspaceSense indexer...")
@@ -24,7 +24,7 @@ def run_workspace_sense():
         logging.info("WorkspaceSense indexing completed successfully.")
     except Exception as e:
         logging.error(f"WorkspaceSense failure: {str(e)}")
-        print("Error detected. Check codex_redundancy.log for forensic details.")
+        print("Error detected. Check codex_redundancy.log for detailed details.")
 
 if __name__ == "__main__":
     run_workspace_sense()
