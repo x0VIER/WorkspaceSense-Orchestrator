@@ -1,17 +1,13 @@
 <p align="center">
-  <img src="../docs/images/logo.png" width="400" alt="WorkspaceSense Logo">
-</p>
-
-<p align="center">
   <b>WorkspaceSense</b><br>
   High-fidelity repository state tracking and file indexing.
 </p>
 
 <p align="center">
-  <a href="#overview">Overview</a> •
-  <a href="#features">Features</a> •
-  <a href="#use-cases">Use Cases</a> •
-  <a href="#evidence">Evidence</a> •
+  <a href="#overview">Overview</a> ï¿½
+  <a href="#features">Features</a> ï¿½
+  <a href="#use-cases">Use Cases</a> ï¿½
+  <a href="#evidence">Evidence</a> ï¿½
   <a href="#setup">Setup</a>
 </p>
 
@@ -40,8 +36,8 @@
 
 ## Setup
 1. **Initialize**: Verify tool configuration and manifest health.
-2. **Execute**: Run `python WorkspaceSense.py`.
-3. **Audit**: Monitor local logs for forensic performance metrics.
+2. **Execute**: Run `python WorkspaceSense.py` to scan the current directory, or `python WorkspaceSense.py --dir /path/to/scan` for a specific path.
+3. **Audit**: Monitor local logs (`codex_redundancy.log`) for forensic performance metrics and `workspace_state.json` for the hash state.
 
 ## Safety
 A local-first engineering forge. All logic and session data remain on local hardware.
