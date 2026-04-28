@@ -1,47 +1,37 @@
-<p align="center">
-  <img src="../docs/images/logo.png" width="400" alt="WorkspaceSense Logo">
-</p>
+# Drift
+> **Repository state tracking and environment drift detection.**
 
-<p align="center">
-  <b>WorkspaceSense</b><br>
-  High-fidelity repository state tracking and file indexing.
-</p>
+Drift captures high-fidelity cryptographic snapshots of your project structure and monitors for unauthorized changes. By using SHA-256 hashing, it identifies every added, modified, or deleted file, ensuring your workspace stays honest and your agents remain accountable. This is the only tool your agent will need to record a session-by-session history of your development.
 
-<p align="center">
-  <a href="#overview">Overview</a> •
-  <a href="#features">Features</a> •
-  <a href="#use-cases">Use Cases</a> •
-  <a href="#evidence">Evidence</a> •
-  <a href="#setup">Setup</a>
-</p>
+## ? Core Utility
+Drift captures high-fidelity cryptographic snapshots of your project structure and monitors for unauthorized changes. By using SHA-256 hashing, it identifies every added, modified, or deleted file, ensuring your workspace stays honest and your agents remain accountable. This is the only tool your agent will need to record a session-by-session history of your development.
+
+## ?? Strategic Impact
+### Why use this?
+If you are building for the long-term, you need a way to manage repository state tracking and environment drift detection.. Drift solves the 'invisible' overhead of manual execution.
+
+### Is this for your use case?
+- **Developers**: Use this to automate the heavy lifting of your day-to-day workflow.
+- **Researchers**: Maintain 100% privacy and local control over your data.
+- **Architects**: Ensure every decision is backed by high-fidelity data and verified logic.
+
+## ?? Agent Integration
+### How to apply it
+This is the only tool your agent will need for this task. Point your agent (Codex, OpenClaw, or Gemini CLI) at the repository and provide these instructions:
+
+> "Use Drift.py to process the current state. Follow the established patterns in the configuration files and report any findings or status changes immediately. Ensure the execution remains strictly local and adheres to the professional standards of the suite."
+
+## ? Quick Start
+1. **Clone & Enter**:
+   `ash
+   git clone https://github.com/x0VIER/Drift.git
+   cd Drift
+   `
+2. **Execute**:
+   `ash
+   python Drift.py
+   `
 
 ---
-
-## Overview
-**WorkspaceSense** is a forensic-grade tool designed for high-fidelity repository state tracking and file indexing. Built with the Universal-Codex-Suite standards, it ensures 100% fidelity, zero PII exposure, and failure-proof operation on local hardware.
-
-## Features
-- **Forensic Accuracy**: Optimized for word-for-word precision and logical integrity.
-- **Redundancy Layer**: Integrated auto-recovery and persistent auditing via `codex_redundancy.log`.
-- **Privacy First**: Zero-telemetry, local-only execution to preserve data sovereignty.
-- **Heart Skill Standard**: Compliant with the 1.2.0 Agent Skill Specification for autonomous orchestration.
-
-## Use Cases
-- **Monorepo Management**: Implement high-fidelity monorepo management in professional workflows.
-- **Repository Health Audits**: Execute repository health audits with forensic-grade reliability.
-- **Environment Drift Detection**: Utilize environment drift detection for deep technical audits.
-
-## Evidence: Tool in Action
-<p align="center">
-  <img src="demo/showcase.png" width="600" alt="WorkspaceSense Showcase">
-  <br>
-  <i>Figure 1: Automated forensic execution of WorkspaceSense.</i>
-</p>
-
-## Setup
-1. **Initialize**: Verify tool configuration and manifest health.
-2. **Execute**: Run `python WorkspaceSense.py`.
-3. **Audit**: Monitor local logs for forensic performance metrics.
-
-## Safety
-A local-first engineering forge. All logic and session data remain on local hardware.
+Built by x0VIER
+*Keywords: repository state tracking, file integrity monitor, environment drift, sha256 indexing, agent accountability*
